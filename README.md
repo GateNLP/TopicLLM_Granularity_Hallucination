@@ -37,3 +37,14 @@ CUDA_VISIBLE_DEVICES = "your_device" python3 run_model.py
 ```python
 python3 evaluation.py
 ```
+
+# Bibtex:
+```bibtex
+@article{mu2024addressing,
+  title={Addressing Topic Granularity and Hallucination in Large Language Models for Topic Modelling},
+  author={Mu, Yida and Bai, Peizhen and Bontcheva, Kalina and Song, Xingyi},
+  journal={arXiv preprint arXiv:2405.00611},
+  year={2024}
+}
+
+
