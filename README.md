@@ -5,6 +5,7 @@ Addressing Topic Granularity and Hallucination in Large Language Models for Topi
 python == 3.10.9
 torch == 2.1.2+cu121
 transformers == 4.37.0.dev0
+trl == 0.7.9
 ```
 
 # Fine-tune Mistral 7B:
