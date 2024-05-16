@@ -9,7 +9,7 @@ transformers == 4.37.0.dev0
 
 # Fine-tune Mistral 7B:
 ```bash
-CUDA_VISIBLE_DEVICES=[your_device] accelerate launch dpo_llama2_halu2.py
+CUDA_VISIBLE_DEVICES=[your_device] accelerate launch finetune_Mistral7b.py.py
     --model_name_or_path="mistralai/Mistral-7B-Instruct-v0.1"
     --output_dir="mistral_new_Adapter"
 ```
