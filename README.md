@@ -2,6 +2,7 @@
 Addressing Topic Granularity and Hallucination in Large Language Models for Topic Modelling
 
 ```text
+#trl setup: https://huggingface.co/docs/trl/example_overview
 python == 3.10.9
 torch == 2.1.2+cu121
 transformers == 4.37.0.dev0
