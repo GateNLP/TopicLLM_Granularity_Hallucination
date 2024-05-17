@@ -11,6 +11,7 @@ trl == 0.7.9
 
 # Fine-tune Mistral 7B:
 ```bash
+# code from Huggingface TRL
 CUDA_VISIBLE_DEVICES=[your_device] accelerate launch finetune_Mistral7b.py
     --model_name_or_path="mistralai/Mistral-7B-Instruct-v0.1"
     --output_dir="mistral_new_Adapter"
@@ -18,6 +19,7 @@ CUDA_VISIBLE_DEVICES=[your_device] accelerate launch finetune_Mistral7b.py
 
 # Merge Adapter Mistral 7B:
 ```bash
+# code from Huggingface TRL
 CUDA_VISIBLE_DEVICES=[your_device] python merge_peft_adapter.py
     --base_model_name="mistralai/Mistral-7B-Instruct-v0.1"
     --adapter_model_name="mistral_new_Adapter"
