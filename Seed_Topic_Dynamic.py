@@ -234,7 +234,7 @@ def gpt2200_fixed_seed_topics(data, prompts, task, model):
         df_output.to_csv(f"{task}.csv", sep = ',', index=False)     
     return output #, batch_clean, batch_raw
 
-output = gpt2200_fixed_seed_topics(wikisss.clean_text, bad, 'wiki_L13_bad', llama13b)
+output = gpt2200_fixed_seed_topics(wikisss.clean_text, wiki_dpo, 'wiki_L13_bad', llama13b)
 
 
 
