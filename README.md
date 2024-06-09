@@ -21,6 +21,9 @@ conda env create -f topicllm.yml
 accelerate config
 ```
 
+## Develop DPO Training Sample (i.e., Re-construction Pipeline)
+
+
 ## DPO Mistral 7B:
 ```bash
 # code from Huggingface TRL
