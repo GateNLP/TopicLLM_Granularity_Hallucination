@@ -14,6 +14,13 @@ trl == 0.7.9
 conda env create -f topicllm.yml
 ```
 
+## set Accelerate config file:
+```bash
+#to use Huggingface TRL, you’ll need to generate an Accelerate config file
+#also see: https://huggingface.co/docs/trl/example_overview
+accelerate config
+```
+
 ## Fine-tune Mistral 7B:
 ```bash
 # code from Huggingface TRL
