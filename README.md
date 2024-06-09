@@ -21,7 +21,7 @@ conda env create -f topicllm.yml
 accelerate config
 ```
 
-## Fine-tune Mistral 7B:
+## DPO Mistral 7B:
 ```bash
 # code from Huggingface TRL
 CUDA_VISIBLE_DEVICES=[your_device] accelerate launch finetune_Mistral7b.py
