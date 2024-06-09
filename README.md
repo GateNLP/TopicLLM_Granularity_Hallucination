@@ -22,7 +22,7 @@ accelerate config
 ```
 
 ## Develop DPO Training Sample (i.e., Re-construction Pipeline)
-[Create DPO Training Samples Pipeline.ipynb] (https://github.com/GateNLP/TopicLLM_Granularity_Hallucination/blob/main/Create%20DPO%20Training%20Samples%20Pipeline.ipynb)
+[Create DPO Training Samples Pipeline.ipynb] (/GateNLP/TopicLLM_Granularity_Hallucination/blob/main/Create%20DPO%20Training%20Samples%20Pipeline.ipynb)
 
 ## DPO Mistral 7B:
 ```bash
