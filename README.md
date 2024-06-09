@@ -9,6 +9,11 @@ transformers == 4.37.0.dev0
 trl == 0.7.9
 ```
 
+## set conda env:
+```bash
+conda env create -f topicllm.yml
+```
+
 ## Fine-tune Mistral 7B:
 ```bash
 # code from Huggingface TRL
